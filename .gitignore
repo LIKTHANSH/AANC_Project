@@ -17,8 +17,8 @@ data/
 *.flac
 
 # Results and logs
-results/
-*.png
+# (Plots are kept for README, only ignoring data arrays)
+results/*.npz
 
 # Virtual environments
 venv/
